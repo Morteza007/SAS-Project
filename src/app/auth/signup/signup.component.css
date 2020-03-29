@@ -1,0 +1,30 @@
+mat-form-field{
+    width: 300px;
+    text-align: center;
+}
+
+mat-icon{
+  color: black;
+}
+
+.box-decoration{
+    width: 320px;
+    box-shadow: 5px 10px #241a1a;
+    border-style: solid;
+    border-radius: 25px;
+    background-color: snow;
+  /*  background: url(../../../assets/image/small-paper-bk.jpg);
+    background-position: left top;
+    background-repeat: repeat;*/
+}
+
+.center {
+    margin-top: 0px;
+    margin-left: 50%;
+    transform: translate(-160px, 10%);
+  }
+
+  .bkimage{
+    background-image: url(../../../assets/image/image-bk-wall.jpg);
+    min-height: 100%;
+  }

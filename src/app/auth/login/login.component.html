@@ -1,0 +1,26 @@
+
+
+<div class="center">
+    <section class="box-decoration">
+        <br>
+        <form fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="10px"
+         #f="ngForm" (ngSubmit)="onSubmit(f)">
+            <mat-form-field>
+                <mat-icon matSuffix>face</mat-icon>
+                <input type="userName" matInput placeholder="نام کاربری" 
+                ngModel required name="userName">
+            </mat-form-field>
+            <mat-form-field>
+                <mat-icon matSuffix>lock</mat-icon>
+                <input type="password" matInput placeholder="کلمه عبور" 
+                ngModel required name="password" minlength="6">
+                <mat-hint>>5</mat-hint>
+            </mat-form-field>
+
+            <button type="submit" [disabled]="f.invalid"
+             mat-stroked-button color="primary">ورود</button>
+        </form>
+        <br>
+    </section>
+    </div>
+    
